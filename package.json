@@ -1,0 +1,23 @@
+{
+  "name": "_discover_Rocketseat",
+  "version": "1.0.0",
+  "description": "Freelance Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjuliacsouza/_discover_Rocketseat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjuliacsouza/_discover_Rocketseat/issues"
+  },
+  "homepage": "https://github.com/mjuliacsouza/_discover_Rocketseat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
