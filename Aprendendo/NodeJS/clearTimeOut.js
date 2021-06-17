@@ -1,7 +1,7 @@
-// rodar uma função depois de 3s
+// clearTimeOut cancela um timeOut
 
 const timeOut = 3000 //milisegundos ou 3s
 const finished = () => console.log('done!')  // função callback depois de 3s
 
-setTimeout(finished, timeOut)
-console.log('Começou!')
+let timer = setTimeout(finished, timeOut)
+clearTimeout(timer)  // cancela o timeOut
