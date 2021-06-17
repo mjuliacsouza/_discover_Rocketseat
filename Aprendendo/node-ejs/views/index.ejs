@@ -1,20 +1,10 @@
 <!DOCTYPE html>
-    <head>
-        <title>Construindo com EJS</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <style>
-            body{
-                padding-top: 50px;
-            }
-        </style>
-    </head>
+
+    <%- include('head') %> 
 
     <body class="container">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/">EJS</a>
-            </nav>
-        </header>
+
+        <%- include('header')  %> 
 
         <main>
             <div class="jumbotron">
@@ -23,8 +13,7 @@
             </div>
         </main>
 
-        <footer>
-            <p class="text-center test-muted">Feito por Maria Júlia</p>
-        </footer>
+        <%- include('footer') %> 
+
     </body>
 </html>
